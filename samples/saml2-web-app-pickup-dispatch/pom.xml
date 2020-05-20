@@ -146,6 +146,12 @@
 
     <build>
         <finalName>saml2-web-app-pickup-dispatch.com</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
